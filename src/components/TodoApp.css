@@ -1,0 +1,123 @@
+.todo-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 2rem;
+  background: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+.todo-header{
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.todo-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.todo-header button {
+    border: none;
+    border-radius: 8px;
+    border-color: #3498db;
+    background-color: #3498db;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+    width: 15%;
+    height: 15%;
+    padding: 10px 0px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.2rem;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.todo-form input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+}
+
+.todo-form button {
+  padding: 10px 16px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.todo-form button:hover {
+  background-color: #2980b9;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.filter-buttons button {
+  padding: 6px 12px;
+  background: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.filter-buttons button.active,
+.filter-buttons button:hover {
+  background: #3498db;
+  color: white;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+.todo-item button {
+  margin-left: 10px;
+  background: transparent;
+  border: none;
+  color: #e74c3c;
+  font-weight: bold;
+  cursor: pointer;
+}
+.todo-count {
+  margin: 12px;
+  display: inline-block;
+}

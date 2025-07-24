@@ -1,41 +1,70 @@
-# Reboot Hyderabad Hackathon
+# Getting Started with Create React App
 
-This is the repository for the Reboot Hackathon being held in Hyderabad.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Fork this Repository
+## Available Scripts
 
-To track each team's code repositories, any team member who's responsible for building a component must fork this repository so that it can be incorporated into the judging criteria when selecting the winners.
+In the project directory, you can run:
 
-To fork this repository, select the `Fork` dropdown menu next to the title:
+### `npm start`
 
-Then select `+ Create New Fork`:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-For the `Repository name`, please make sure you enter your team's name so that we can keep track of the different repositories.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-If your team is building multiple components and requires multiple repositories, fork this repository and enter the team name followed by the name of the component.
+### `npm test`
 
-For example, if you have a `frontend` and `backend` application, the first fork can be called `TeamName-frontend` and the second fork can be called `TeamName-backend`.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-> [!NOTE]
-> If you're only building a single component, you can leave the `Repository name` as `TeamName`.
+### `npm run build`
 
-Once you've entered the name, select `Create fork`:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Add Collaborators
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Now that you've created your own fork, if another member within your team wants to contribute to the code, you would need to add them as a collaborator.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To do so, navigate to the repository containing your fork and click on `Settings`:
+### `npm run eject`
 
-Then select the `Collaborators` option in the navigation menu on the left:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Select `Add people`:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-And search for the `username`, `full name`, or `email` of the member you want to add to the repository.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Then they can clone your repository and contribute code to your fork.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-> [!NOTE]
-> Please make sure to add them to your forked version of the repository. You won't be able to add them here directly.
+## Learn More
 
-Now you're ready to start. Happy coding!
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
